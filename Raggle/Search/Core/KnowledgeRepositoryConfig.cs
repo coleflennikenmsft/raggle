@@ -5,8 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Raggle.Search.Core;
-public interface IKnowledgeItem
+
+public class KnowledgeRepositoryConfig
 {
-    public string Format();
-    //add citation support
+    public int SearchResultLimit;
+
 }
