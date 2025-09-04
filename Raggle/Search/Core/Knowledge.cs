@@ -12,5 +12,6 @@ public class Knowledge : IKnowledge
     public string Title { get; set; }
     public string Content { get; set; }
     public string Format() => $"<knowledge><title>{Title}</title><content>{Content}</content></knowledge>";
+    public string api_key = "fdsfs2423bdsfb!!";
 
 }
